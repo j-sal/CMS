@@ -14,8 +14,8 @@ public class DBUtil {
 	// 127.0.0.1 represent that the database server is in local computer, usually configured the localhost represent 127.0.0.1  in hosts file
 	private static String url = "jdbc:mysql://127.0.0.1:3306/contractdb?useUnicode=true&amp;" +
 			"characterEncoding=utf8"; // Database connection string,the character encoding is utf8
-	private static String user = "joge"; // Database account?
-	private static String password = "taurus"; // Database password
+	private static String user = "root"; // Database account?
+	private static String password = "..."; // Database password (add your password to access to your localhost database
 	
 	// Static code block,realized to load driver,executed once only when the class is loaded
 	static {
